@@ -1,5 +1,160 @@
+
+body{
+   background-color: #bbbed8;
+}
 .body_calculator{
    background: #3D4060;
    position: absolute;
+   width: 785px;
+   height: 582px;
+   top: 108px;
+   left: 344px;
+}
+
+.screen{
+   background: #161A40;
+   position: absolute;
+   width: 356px;
+   height: 75px;
+   border-radius: 7px;
+   top: 120px;
+   left: 214px;
+}
+.num_group{
+   position: absolute;
+   width: 356px;
+   height: 299px;
+   background: #242B4E;
+   border-radius: 8px;
+   top: 228px;
+   left: 215px;
+}
+.btn{
+   background: #C4C4C4;
+   position: absolute;
+   width: 68px;
+   height: 39px;
    
+   border: solid 1px #4C5078;
+   border-bottom: 3px outset #d3d3d3;
+   box-sizing: border-box;
+  /* box-shadow: 0px 4px 4px rgba(67, 59, 59, 0.4);*/
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/*Primeira fileira de botões*/
+.btn_7{
+   left: 15px;
+   top: 16px;
+}
+.btn_8{
+   left: 99px;
+   top: 16px;
+}
+.btn_9{
+   left: 182px;
+   top: 16px;
+}
+.btn_del{
+   left: 266px;
+   top: 16px;
+
+   background: #4C5078;
+   color: white;
+   border-color: #4C5078;
+}
+
+/*segunda fileira de botões*/
+.btn_4{
+   left: 16px;
+   top: 71px;
+}
+
+.btn_5{
+   left: 99px;
+   top: 71px;
+}
+.btn_6{
+   left: 182px;
+   top: 71px;
+}
+.btn_sum{
+   left: 266px;
+   top: 71px;
+}
+
+/*terceira fileira de botões*/
+
+.btn_1{
+   left: 16px;
+   top: 126px;
+}
+.btn_2{
+   left: 99px;
+   top: 126px;
+}
+.btn_3{
+   left: 182px;
+   top: 126px;
+}
+.btn_sub{
+   left: 266px;
+   top: 126px;
+}
+
+/*terceira fileira de botoes */
+
+.btn_dot{
+   left: 16px;
+   top: 181px;
+}
+.btn_0{
+   left: 99px;
+   top: 181px;
+}
+.btn_div{
+   left: 182px;
+   top: 181px;
+}
+.btn_x{
+   left: 266px;
+   top: 181px;
+}
+.btn_reset{
+   position: absolute;
+   top: 235px;
+   width: 151px;
+   height: 39px;
+   left: 16px;
+   
+   background: #4C5078;
+   color: white;
+   border-color: #4C5078;
+}
+.btn_equal{
+   position: absolute;
+   top: 235px;
+   width: 151px;
+   height: 39px;
+   left: 182px;
+   
+   background: #ff820c;
+   color: white;
+   border-color: #4C5078;
+   border-bottom: outset 3px #a85406;
+}
+.btn:active{
+   border-bottom: 2px;
+}
+.btn_equal:hover{background-color:#df7008 ;transition: 0.5s;}
+.btn_equal:active{
+   border-bottom: solid 2px #a7560a;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.name_calc{
+   position: absolute;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   top: 73px;
+   left: 214px;
 }
