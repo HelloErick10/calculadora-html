@@ -1,6 +1,7 @@
 
 body{
    background-color: #bbbed8;
+   width:100%;
 }
 .body_calculator{
    background: #3D4060;
@@ -158,3 +159,22 @@ body{
    top: 73px;
    left: 214px;
 }
+
+.toggle_theme{
+   display: flex;
+   position: absolute;
+   top: 93px;
+   left: 523px;
+   background-color: #161A40;
+   border: 1px solid #161A40;
+   border-radius: 7px;
+}
+.custom_radio__button{
+   border: 1px solid #161A40;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
